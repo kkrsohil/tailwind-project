@@ -1,0 +1,307 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+
+<body>
+    <header class="w-full body-font bg-black md:px-5 fixed z-10 nav" style="display: block;">
+        <div class="container mx-auto flex flex-wrap p-3  items-center justify-between">
+            <a href="#" class="flex title-font font-medium items-center text-gray-900  md:mb-0">
+                <img src="./asset/img/logo2.png" alt="" class="h-12 w-12">
+                <span class="ml-2 text-xl text-white">PortfolioM4</span>
+            </a>
+            <button class="inline-flex items-center text-white text-2xl"><i class="fas fa-bars" onclick="menuBar()"></i>
+            </button>
+        </div>
+    </header>
+    
+    <header class="md:w-80 w-full h-full  right-0 top-0 body-font bg-black md:px-5 fixed z-10 nav2" style="display: none;">
+        <div class="container mx-auto flex flex-col p-3  items-center justify-between relative">
+            <a href="#" class="flex title-font font-medium items-center text-gray-900 mt-5  md:mb-0">
+                <img src="./asset/img/logo2.png" alt="" class="h-12 w-12">
+                <span class="ml-2 text-xl text-white">PortfolioM4</span>
+            </a>
+            <p class="text-white pt-5">PortfolioM4 theme</p>
+            <p class="text-white pt-2">Watch Video</p>
+            <p class="text-white pt-2">Pages</p>
+            <p class="text-white py-2">Blocks</p>
+            <button class="text-white bg-yellow-500 px-5 py-3 uppercase hover:bg-yellow-800">But Now</button>
+            <button class="inline-flex items-center text-white text-2xl absolute top-5 right-5 "><i class="fa-solid fa-xmark" onclick="menuBar()"></i>
+            </button>
+        </div>
+    </header>
+
+    <section
+        class=" h-full text-gray-600 body-font relative md:pl-20 bg-[url('./asset/img/background3.jpg')] bg-center bg-no-repeat bg-cover bg-fixed ">
+        <div class="container px-5 py-24 mx-auto flex">
+            <div class="lg:w-1/3 md:w-1/2 bg-white p-5 flex flex-col md:mr-auto w-full mt-10 md:mt-0  shadow-md">
+                <div class="border-2 outline-black  flex flex-col justify-center items-center p-10">
+                    <h2 class="text-gray-900 text-4xl font-medium title-font text-center">Hello</h2>
+                    <div class="flex mt-2 justify-center">
+                        <div class="w-16 h-1 rounded-full bg-black inline-flex hover:animate-ping hover:bg-yellow-300"></div>
+                    </div>
+                    <h2 class="leading-relaxed text-center text-xl my-3 text-gray-600">I'm Mark and Photographer</h2>
+                    <p class="text-center text-sm mb-3">SPECIALIZED IN DESIGN AND PHOTOGRAPHY</p>
+                    <button class="text-white bg-yellow-500 px-5 py-3 uppercase hover:bg-yellow-800">About me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font mb-20">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 ">I'M SPECIALIZED IN
+                <div class="flex mt-2 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-black inline-flex hover:animate-ping hover:bg-yellow-300"></div>
+                </div>
+            </h1>
+            <p class="sm:text-xl text-2xl text-center text-gray-500 mb-20">
+                Lorem ipsum dolor amet, consecte tempor incididunt
+            </p>
+
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 px-5">
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col sm:items-start items-center  justify-center">
+                    <div class="flex-grow">
+                        <i class="fa-solid fa-file-pen text-3xl hover:text-yellow-300"></i>
+                    </div>
+                    <div class="flex-grow flex flex-col sm:items-start items-center justify-center">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">CONCEPTING</h2>
+                        <p class="leading-relaxed text-base text-center sm:text-start">Lorem ipsum dolor amet, consecte
+                            tempor incididunt ut
+                            labore et dolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col sm:items-start items-center   justify-center">
+                    <div class="flex-grow">
+                        <i class="fa-solid fa-envelope text-3xl hover:text-yellow-300"></i>
+                    </div>
+                    <div class="flex-grow flex flex-col sm:items-start items-center justify-center ">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">UI/UX</h2>
+                        <p class="leading-relaxed text-base text-center sm:text-start">Lorem ipsum dolor amet, consecte
+                            tempor incididunt ut
+                            labore et dolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col sm:items-start items-center  justify-center">
+                    <div class="flex-grow ">
+                        <i class="fa-regular fa-images text-3xl hover:text-yellow-300"></i>
+                    </div>
+                    <div class="flex-grow flex flex-col sm:items-start items-center justify-center">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">VISUAL DESIGN</h2>
+                        <p class="leading-relaxed text-base text-center sm:text-start">Lorem ipsum dolor amet, consecte
+                            tempor incididunt ut
+                            labore et dolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col sm:items-start items-center  justify-center">
+                    <div class="flex-grow ">
+                        <i class="fa-regular fa-thumbs-up text-3xl hover:text-yellow-300"></i>
+                    </div>
+                    <div class="flex-grow flex  flex-col sm:items-start items-center justify-center">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2"> INTERACTION</h2>
+                        <p class="leading-relaxed text-base text-center sm:text-start">Lorem ipsum dolor amet, consecte
+                            tempor incididunt ut
+                            labore et dolore tumber tur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font px-5">
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 sm:flex-row  flex-col">
+            <div class="p-20 md:w-1/4 flex flex-col items-center justify-center bg-gray-300">
+                <div class="flex-grow">
+                    <i class="fa-solid fa-users text-4xl hover:text-yellow-300"></i>
+                </div>
+                <div class="flex-grow flex flex-col items-center justify-center ">
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Clients</h2>
+                    <p class="leading-relaxed text-3xl font-medium">37</p>
+                </div>
+            </div>
+            <div class="p-20 md:w-1/4 flex flex-col items-center justify-center bg-gray-100">
+                <div class="flex-grow">
+                    <i class="fa-solid fa-rocket text-4xl hover:text-yellow-300"></i>
+                </div>
+                <div class="flex-grow flex flex-col items-center justify-center ">
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Aworde Winner</h2>
+                    <p class="leading-relaxed text-3xl font-medium">13</p>
+                </div>
+            </div>
+            <div class="p-20 md:w-1/4 flex flex-col items-center justify-center bg-gray-300">
+                <div class="flex-grow">
+                    <i class="fa-regular fa-clock text-4xl hover:text-yellow-300"></i>
+                </div>
+                <div class="flex-grow flex flex-col items-center justify-center ">
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Hours Worked
+                    </h2>
+                    <p class="leading-relaxed text-4xl font-medium">900</p>
+                </div>
+            </div>
+            <div class="p-20 md:w-1/4 flex flex-col items-center justify-center bg-gray-100">
+                <div class="flex-grow">
+                    <i class="fa-solid fa-wand-magic-sparkles text-4xl hover:text-yellow-300"></i>
+                </div>
+                <div class="flex-grow flex flex-col items-center justify-center ">
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Project Completed</h2>
+                    <p class="leading-relaxed text-4xl font-medium">40</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="text-gray-600 body-font mb-20">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900 ">MY WORKING PROCESS
+                <div class="flex mt-2 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-black inline-flex hover:animate-ping hover:bg-yellow-300"></div>
+                </div>
+            </h1>
+            <p class="sm:text-xl text-2xl text-center text-gray-500 mb-20">
+                Lorem ipsum dolor amet, consecte tempor incididunt
+            </p>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 px-5">
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center">
+                    <div class="relative flex-grow flex justify-center items-center p-10 bg-black hover:bg-yellow-500 rounded-full  text-white">
+                        <i class="fa-solid fa-message text-3xl after:content-['1'] after:bg-black after:text-whiye after:top-0 after-right-0 after-abs"></i>
+                    </div>
+                    <div class="flex-grow flex flex-col items-center justify-center">
+                        <h2 class="text-gray-900 text-lg title-font font-medium my-2">DISCUSS THE PROJECT</h2>
+                        <p class="leading-relaxed text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                            <a href="#" class="text-black">.Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center">
+                    <div class="flex-grow flex justify-center items-center p-10 bg-black hover:bg-yellow-500 rounded-full  text-white">
+                        <i class="fa-regular fa-lightbulb text-3xl"></i>
+                    </div>
+                    <div class="flex-grow flex flex-col items-center justify-center">
+                        <h2 class="text-gray-900 text-lg title-font font-medium my-2">LOT OF CONCEPTING</h2>
+                        <p class="leading-relaxed text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                            <a href="#" class="text-black">.Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center">
+                    <div class="flex-grow flex justify-center items-center p-10 bg-black hover:bg-yellow-500 rounded-full  text-white">
+                        <i class="fa-solid fa-envelope text-3xl"></i>
+                    </div>
+                    <div class="flex-grow flex flex-col items-center justify-center">
+                        <h2 class="text-gray-900 text-lg title-font font-medium my-2">UX/UI PLANNING</h2>
+                        <p class="leading-relaxed text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                            <a href="#" class="text-black">.Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 md:w-1/4 flex flex-col items-center justify-center">
+                    <div class="flex-grow flex justify-center items-center p-10 bg-black hover:bg-yellow-500 rounded-full  text-white">
+                        <i class="fa-solid fa-circle-half-stroke text-3xl"></i>
+                    </div>
+                    <div class="flex-grow flex flex-col items-center justify-center">
+                        <h2 class="text-gray-900 text-lg title-font font-medium my-2">DESIGN</h2>
+                        <p class="leading-relaxed text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                            <a href="#" class="text-black">.Learn more</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="body-font bg-gray-100">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center px-5">
+                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">ABOUT ME</h1>
+                <h3 class="title-font sm:text-2xl text-md mb-2 font-medium">I AM A PHOTOGRAPHER & DESIGNER</h3>
+                <p class="mb-4 leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                    iure
+                    eaque, molestiae ipsum harum enim ex quod sapiente, dolores ducimus fugiat impedit delectus
+                    provident placeat. Iste sit similique, veniam rerum. Quidem voluptatem provident illo eos, ex
+                    facilis.</p>
+                <p><i class="fa-solid fa-check mr-2 text-yellow-300"></i> Lorem ipsum dolor sit amet</p>
+                <p><i class="fa-solid fa-check mr-2 text-yellow-300"></i> Lorem ipsum dolor sit amet</p>
+                <p><i class="fa-solid fa-check mr-2 text-yellow-300"></i> Lorem ipsum dolor sit amet</p>
+                <p><i class="fa-solid fa-check mr-2 text-yellow-300"></i> Lorem ipsum dolor sit amet</p>
+                <p><i class="fa-solid fa-check mr-2 text-yellow-300"></i> Lorem ipsum dolor sit amet</p>
+                <div class="flex items-center justify-between mt-5">
+                    <i
+                        class="fa-brands fa-facebook text-xl bg-black text-white rounded-full mr-2 p-3 hover:bg-yellow-300"></i>
+                    <i
+                        class="fa-brands fa-twitter text-xl bg-black text-white rounded-full mr-2 p-3 hover:bg-yellow-300"></i>
+                    <i
+                        class="fa-brands fa-linkedin text-xl bg-black text-white rounded-full mr-2 p-3 hover:bg-yellow-300"></i>
+                    <i
+                        class="fa-brands fa-youtube text-xl bg-black text-white rounded-full mr-2 p-3 hover:bg-yellow-300"></i>
+                    <i
+                        class="fa-solid fa-wifi text-xl bg-black text-white rounded-full mr-2 p-3 hover:bg-yellow-300"></i>
+                </div>
+            </div>
+
+            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img class="object-cover object-center rounded" alt="hero" src="./asset/img/01.jpg">
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-gray-600 body-font">
+        <div class="bg-black px-20">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col items-center sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left"><span
+                        class="text-yellow-300">PortfolioM4.</span> Powered by <span
+                        class="text-yellow-300">Mobirise.com</span>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <i
+                            class="fa-brands fa-facebook p-3 rounded-full hover:bg-yellow-300 border-2 outline-white"></i>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <i class="fa-brands fa-twitter p-3 rounded-full hover:bg-yellow-300 border-2 outline-white"></i>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <i
+                            class="fa-brands fa-linkedin p-3 rounded-full hover:bg-yellow-300 border-2 outline-white"></i>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <i class="fa-brands fa-youtube p-3 rounded-full hover:bg-yellow-300 border-2 outline-white"></i>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <i class="fa-solid fa-wifi p-3 rounded-full hover:bg-yellow-300 border-2 outline-white"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function menuBar() {
+            var x = document.querySelector(".nav");
+            var y = document.querySelector(".nav2");
+
+            if (x.style.display === "block") {
+                y.style.display = "block";
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+                y.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>
